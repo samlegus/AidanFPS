@@ -1,0 +1,1843 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16116 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sjlegus/UNITY/AidanFPSGame/FPS Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60279
+Successfully changed project path to: C:/Users/sjlegus/UNITY/AidanFPSGame/FPS Game
+C:/Users/sjlegus/UNITY/AidanFPSGame/FPS Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sjlegus/UNITY/AidanFPSGame/FPS Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x9bc8)
+    Vendor:   
+    VRAM:     8058 MB
+    Driver:   27.20.100.9268
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001287 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (133ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (992ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1569 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 2.166200 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.894900 ms  DeleteObjects: 0.069400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SuperEditor
+  artifactKey: Guid(103d58dce944f403ab8662444380b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor using Guid(103d58dce944f403ab8662444380b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e79baf99ba6d6ebe6365e6bb715e2e9') in 0.008612 seconds 
+  Import took 0.010847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Scripts/SingleShotGun.cs
+  artifactKey: Guid(b6939f39ffe24ff4985447f0ce3a2623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SingleShotGun.cs using Guid(b6939f39ffe24ff4985447f0ce3a2623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f54e637873d8cb3957bd21d3fcbdbe') in 0.026894 seconds 
+  Import took 0.029109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.231110 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/enum.txt
+  artifactKey: Guid(71580406ebdc92c4d807e954bf741af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/enum.txt using Guid(71580406ebdc92c4d807e954bf741af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d691a6b079ffedc08e8176ab4d104a8') in 0.026527 seconds 
+  Import took 0.030148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003610 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/EditorQuit.cs
+  artifactKey: Guid(bf2888ff90706904abc2d851c3e59e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/EditorQuit.cs using Guid(bf2888ff90706904abc2d851c3e59e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1092a8868194e8a3a5215865f56842') in 0.011576 seconds 
+  Import took 0.015441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003390 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs
+  artifactKey: Guid(2cd0ed7420882554fa146aab6aeb2e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs using Guid(2cd0ed7420882554fa146aab6aeb2e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70c0104caa468de59ff29e9b42d13e1') in 0.011350 seconds 
+  Import took 0.013762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003152 seconds.
+  path: Assets/SuperEditor/README.txt
+  artifactKey: Guid(533b19d5b8d3a40429e459de79875319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/README.txt using Guid(533b19d5b8d3a40429e459de79875319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35ad2fe4d7c3fe3a791b463ba116385') in 0.007578 seconds 
+  Import took 0.009993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002880 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/README.txt
+  artifactKey: Guid(afb5a66b48c9b4222a5d791a4e1e9054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/README.txt using Guid(afb5a66b48c9b4222a5d791a4e1e9054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fcc8bb6b64ac749ed4977895e2a93b') in 0.002318 seconds 
+  Import took 0.004932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003459 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonLagSimulationGui.cs
+  artifactKey: Guid(5867a53c8db0e6745818285bb6b6e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonLagSimulationGui.cs using Guid(5867a53c8db0e6745818285bb6b6e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c759524d493f00465e9de2ab778042d2') in 0.007808 seconds 
+  Import took 0.010593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006292 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatOperationCode.cs
+  artifactKey: Guid(c90a2a73f3ce648409739c724d3e6cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatOperationCode.cs using Guid(c90a2a73f3ce648409739c724d3e6cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d1371ad10e021623036af7d2d2597b') in 0.005186 seconds 
+  Import took 0.007545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002844 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatAppSettings.cs
+  artifactKey: Guid(87776a9b1f405644abcc38ecd70c37fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatAppSettings.cs using Guid(87776a9b1f405644abcc38ecd70c37fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaec17396e7d9853be7299b895de2f7') in 0.005378 seconds 
+  Import took 0.007615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002854 seconds.
+  path: Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+  artifactKey: Guid(6a558ae793155af4b9b9ab945fc64a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll using Guid(6a558ae793155af4b9b9ab945fc64a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd2258c8313d741e2948dc674be5f9') in 0.009080 seconds 
+  Import took 0.011662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002729 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbodyView.cs
+  artifactKey: Guid(64179f3720bbfe947b7724caa67b7c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbodyView.cs using Guid(64179f3720bbfe947b7724caa67b7c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0ccea5dd47a7b469c0e91deeadc532') in 0.005587 seconds 
+  Import took 0.008556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003520 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs
+  artifactKey: Guid(57b538e62a0ca6248bfd354def935e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs using Guid(57b538e62a0ca6248bfd354def935e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbeef5d5daaf8e6fd4dd844a902c5598') in 0.005334 seconds 
+  Import took 0.008056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002764 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+  artifactKey: Guid(35c989013c977244186e524a4c90dcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs using Guid(35c989013c977244186e524a4c90dcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96be64dc2886f604561fa2d0b5a58bb') in 0.005190 seconds 
+  Import took 0.007449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002757 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Unity/PhotonAppSettings.cs
+  artifactKey: Guid(a389b614f52fbf347a1533dbbf245033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Unity/PhotonAppSettings.cs using Guid(a389b614f52fbf347a1533dbbf245033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66ce5be04b1645e6a2906143fa6abe4') in 0.005225 seconds 
+  Import took 0.007466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002831 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d31bf171c5365552f4a91bd95634109') in 0.005119 seconds 
+  Import took 0.007412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002809 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/struct.txt
+  artifactKey: Guid(d68f7329e3aaa994e8b3184413cb5321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/struct.txt using Guid(d68f7329e3aaa994e8b3184413cb5321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49ad8847413e268cb8db80f6a83daaf') in 0.005835 seconds 
+  Import took 0.008275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002652 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs
+  artifactKey: Guid(f40f16a0227e5c14293e269c875c0f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs using Guid(f40f16a0227e5c14293e269c875c0f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cdc374133e6e035c1efabbd41bdbdc') in 0.004981 seconds 
+  Import took 0.007178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003164 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatChannel.cs
+  artifactKey: Guid(35b2a4878e5e99e438c97fbe8dbbd863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatChannel.cs using Guid(35b2a4878e5e99e438c97fbe8dbbd863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28974b97dcec2fd59aa86f6d13c35a56') in 0.005091 seconds 
+  Import took 0.007328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002731 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsInspector.cs
+  artifactKey: Guid(1ad59deacfd0848dcb64a51b0a0eb960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsInspector.cs using Guid(1ad59deacfd0848dcb64a51b0a0eb960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5659bc8a3c448002e0bcbd91f8f085eb') in 0.005215 seconds 
+  Import took 0.007483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002869 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/namespace.txt
+  artifactKey: Guid(ea73d9b18f8b41d48a4dac0b1d765f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/namespace.txt using Guid(ea73d9b18f8b41d48a4dac0b1d765f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc8d4341de47ad8aeed0d351959a4c3') in 0.006189 seconds 
+  Import took 0.009608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002696 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/nn.txt
+  artifactKey: Guid(0e88f79f90a457346a67bfb34553894f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/nn.txt using Guid(0e88f79f90a457346a67bfb34553894f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f5f9ce66c441a580d74a886b41dded') in 0.005499 seconds 
+  Import took 0.007771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002735 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49bba7f7307fa047ffa36baa8d2f706') in 0.005263 seconds 
+  Import took 0.007598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002510 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3a421645fecc518dc1b53f528eb3f5') in 0.004835 seconds 
+  Import took 0.007058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002546 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930d9c852221da6d28e8143cf25e0f38') in 0.005039 seconds 
+  Import took 0.007303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009386 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs
+  artifactKey: Guid(006991e32d9020c4d896f161318a2bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs using Guid(006991e32d9020c4d896f161318a2bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd3b5aa8c33177f55f3b491ca83b1a6') in 0.004941 seconds 
+  Import took 0.007282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002465 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/SupportLogger.cs
+  artifactKey: Guid(9b61c60d38639484ebbd7f2100dd3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/SupportLogger.cs using Guid(9b61c60d38639484ebbd7f2100dd3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f286ef6db4018e2924b1da2538c49453') in 0.005347 seconds 
+  Import took 0.007545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003068 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/FriendInfo.cs
+  artifactKey: Guid(94ba1138c322ea04c8c37cfbcf87f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/FriendInfo.cs using Guid(94ba1138c322ea04c8c37cfbcf87f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fa8a87ce318c6cf1d0b2d38316a7aa') in 0.006719 seconds 
+  Import took 0.009088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005452 seconds.
+  path: Assets/SuperEditor/EditorResources/Internal/SuperEditorInfo.txt
+  artifactKey: Guid(ade2150e29673450faacafd9168b4f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Internal/SuperEditorInfo.txt using Guid(ade2150e29673450faacafd9168b4f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a8808a48a9240c6e1b55f952f60a6f') in 0.005450 seconds 
+  Import took 0.007764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003619 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/CourierN.dfont
+  artifactKey: Guid(85a517cb9b5264d13b09b77d2d07d48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/CourierN.dfont using Guid(85a517cb9b5264d13b09b77d2d07d48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d815e7f061ae527bef8b96085048af') in 0.072795 seconds 
+  Import took 0.075314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003154 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/while.txt
+  artifactKey: Guid(2688ea3f46bd08845862af371dcee77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/while.txt using Guid(2688ea3f46bd08845862af371dcee77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7beb2074f0abf0f30908e02d87806e0b') in 0.005989 seconds 
+  Import took 0.008659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002069 seconds.
+  path: Assets/SuperEditor/Editor
+  artifactKey: Guid(b34acf54c193349a3b28d339ee553180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/Editor using Guid(b34acf54c193349a3b28d339ee553180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1d00b2884cab1854c260abadf63efd') in 0.005274 seconds 
+  Import took 0.007532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002404 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/case.txt
+  artifactKey: Guid(7c740a24158f28748aab457f407bdb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/case.txt using Guid(7c740a24158f28748aab457f407bdb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9994e10d76f15dfafe7fae1ca76f6f6') in 0.005410 seconds 
+  Import took 0.007961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002637 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/AppSettings.cs
+  artifactKey: Guid(272beb7315eb9fc4daecafe2ff373baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/AppSettings.cs using Guid(272beb7315eb9fc4daecafe2ff373baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73be3f486f1ad60dc883f35f7e74666') in 0.005081 seconds 
+  Import took 0.007400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003635 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/Menlo.ttc
+  artifactKey: Guid(a000d80230dfc4047a1ed641f9607e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/Menlo.ttc using Guid(a000d80230dfc4047a1ed641f9607e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2159ae70e839ee41fc02d11159d09664') in 0.037553 seconds 
+  Import took 0.040628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002445 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/else.txt
+  artifactKey: Guid(92180126a9dd1314691399a66d2a3919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/else.txt using Guid(92180126a9dd1314691399a66d2a3919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5d294ffa409a6e5bd78c2c12dda097') in 0.006130 seconds 
+  Import took 0.008718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002794 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f342987b4ac67915496b52096cb6a516') in 0.062759 seconds 
+  Import took 0.065635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002932 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView/SmoothSyncMovement.cs
+  artifactKey: Guid(35144820bcc25444bb8f0fd767d9423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView/SmoothSyncMovement.cs using Guid(35144820bcc25444bb8f0fd767d9423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114f6be7bb31582e4d281aa2ef2d0435') in 0.005331 seconds 
+  Import took 0.007726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002335 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettings.cs
+  artifactKey: Guid(fc3284eace5a64d4bb516df7d7effdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettings.cs using Guid(fc3284eace5a64d4bb516df7d7effdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be232e53a9e6bc6a31c10e61eec608c6') in 0.005286 seconds 
+  Import took 0.007609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003083 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs
+  artifactKey: Guid(84db789113d4b01418c1becb128c4561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs using Guid(84db789113d4b01418c1becb128c4561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708350b8e00acde943b384ee5ce17d0a') in 0.005129 seconds 
+  Import took 0.007528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002546 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs
+  artifactKey: Guid(ec99d371d7c8e44899ce4b834dfd4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs using Guid(ec99d371d7c8e44899ce4b834dfd4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6c31c9925f525a5762d5d8030bb0a6') in 0.005883 seconds 
+  Import took 0.008443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002720 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e964eb25bf5d707143bc83381325ff9') in 0.005056 seconds 
+  Import took 0.007367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll
+  artifactKey: Guid(748eb70bc0d7515498ef73fed155520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll using Guid(748eb70bc0d7515498ef73fed155520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe73eeac2ac3d8f9b58d406ef5cbb414') in 0.004960 seconds 
+  Import took 0.007317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002622 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/Mono.ttf
+  artifactKey: Guid(13cb619672fa24a8181c94d4c891329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/Mono.ttf using Guid(13cb619672fa24a8181c94d4c891329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ae07f240fa17106d3f0b395a32f9ef') in 0.014111 seconds 
+  Import took 0.016489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002868 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditor.cs
+  artifactKey: Guid(dabbbed2a74eac44dac281f20d706ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditor.cs using Guid(dabbbed2a74eac44dac281f20d706ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1c62eac5ab091109ad9c76b7234711') in 0.004971 seconds 
+  Import took 0.007585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002565 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd50e3ffdb692734c0b745db52cfe1c') in 0.005266 seconds 
+  Import took 0.007984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003041 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/Project.cs
+  artifactKey: Guid(ec8d3a1577179ef44815739178cf75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/Project.cs using Guid(ec8d3a1577179ef44815739178cf75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d118f2ab6a2881c5cfc663fba59df6') in 0.004940 seconds 
+  Import took 0.007413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002774 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/Inconsolata.otf
+  artifactKey: Guid(00a06c0d1c7aac94b9ad4a2f169cfb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/Inconsolata.otf using Guid(00a06c0d1c7aac94b9ad4a2f169cfb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6704906d67dbe4976c4bca8cc6aa8da2') in 0.013704 seconds 
+  Import took 0.016960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002838 seconds.
+  path: Assets/SuperEditor/EditorResources/Internal/ChangeLog.txt
+  artifactKey: Guid(68afc41bfcaf64bf3a9367ab2018ffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Internal/ChangeLog.txt using Guid(68afc41bfcaf64bf3a9367ab2018ffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3731f0c072d0a19368d1ba381bfd25db') in 0.005389 seconds 
+  Import took 0.007776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002627 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/ServerSettings.cs
+  artifactKey: Guid(9f3758f8f58fdef43803eb9be1df0608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/ServerSettings.cs using Guid(9f3758f8f58fdef43803eb9be1df0608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1321891b6085874631d60f0bcc77c4') in 0.005635 seconds 
+  Import took 0.008085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002811 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9e24787e8482570a04934bdfadbff2') in 0.005335 seconds 
+  Import took 0.007986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002905 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/NonCore/AskFeedbackDialog.cs
+  artifactKey: Guid(894412a5b602e6c4ba2cf2d01f4f92b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/NonCore/AskFeedbackDialog.cs using Guid(894412a5b602e6c4ba2cf2d01f4f92b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6e7483503e39bc6ee7784135678e57') in 0.005527 seconds 
+  Import took 0.008167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003976 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.035017 seconds 
+  Import took 0.037892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002730 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/UNITY_EDITOR.txt
+  artifactKey: Guid(097fe6dff11d247f786b18d95d6d9d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/UNITY_EDITOR.txt using Guid(097fe6dff11d247f786b18d95d6d9d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc8753eff035b33226f87586db7e03f') in 0.005884 seconds 
+  Import took 0.008814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002596 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatDisconnectCause.cs
+  artifactKey: Guid(b90b85043f1857f43b94fd00edfc1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatDisconnectCause.cs using Guid(b90b85043f1857f43b94fd00edfc1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c911f4f7129c9303ffaffcbe22a6b6') in 0.005510 seconds 
+  Import took 0.008080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003042 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8866982117488907ff2ad00fc38de2') in 0.005382 seconds 
+  Import took 0.007836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002927 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf6bf619349739f8c544a1dad8f8805') in 0.006608 seconds 
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005693 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs
+  artifactKey: Guid(22292ca8ffb574945bedfaf49266672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs using Guid(22292ca8ffb574945bedfaf49266672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd75be3678421d8c38e9bc2d1c8a963f') in 0.005752 seconds 
+  Import took 0.008262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002958 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/ReorderableListResources.cs
+  artifactKey: Guid(60c609ded101b0a468fb5cf27b31cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/ReorderableListResources.cs using Guid(60c609ded101b0a468fb5cf27b31cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3db65acae52abb25d27222a0933934f') in 0.005536 seconds 
+  Import took 0.008149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002128 seconds.
+  path: Assets/SuperEditor/EditorResources
+  artifactKey: Guid(1cf895da67e1542c6b8a8618b9c62094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources using Guid(1cf895da67e1542c6b8a8618b9c62094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636aa789e9ee4d88bb0efd271eceff82') in 0.005020 seconds 
+  Import took 0.007620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002511 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/PhotonPingClasses.cs
+  artifactKey: Guid(d93148764d7961d4a8b8112bd166cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/PhotonPingClasses.cs using Guid(d93148764d7961d4a8b8112bd166cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df08db7cc7a74e2c9d8e96dc2e79f250') in 0.005821 seconds 
+  Import took 0.008271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002763 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/switch.txt
+  artifactKey: Guid(d6cdbccd598448148b163a01e4cee509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/switch.txt using Guid(d6cdbccd598448148b163a01e4cee509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1b5d050cd2e13bca9dd31c46846b1d') in 0.006417 seconds 
+  Import took 0.009138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002897 seconds.
+  path: Assets/Photon/PhotonLibs/Photon3Unity3D.dll
+  artifactKey: Guid(aadb37a20a33632429047acaef43658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonLibs/Photon3Unity3D.dll using Guid(aadb37a20a33632429047acaef43658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f6e61815bbd640e93118b5699a425a') in 0.001881 seconds 
+  Import took 0.004779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002995 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885bb8f0c08bff0852d1e5ebc3f8a3b3') in 0.006075 seconds 
+  Import took 0.009219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003280 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd8531c42380c24d0f63a0004d5f033') in 0.006497 seconds 
+  Import took 0.009053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002478 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonTeamsManagerInspector.cs
+  artifactKey: Guid(8cb74f08e3fc52942a0d8557772bf4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonTeamsManagerInspector.cs using Guid(8cb74f08e3fc52942a0d8557772bf4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4003b6ebcb097d7f9dbb0a85c9bccbf7') in 0.005495 seconds 
+  Import took 0.008009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002874 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/ClonesManagerWindow.cs
+  artifactKey: Guid(a041d83486c20b84bbf5077ddfbbca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/ClonesManagerWindow.cs using Guid(a041d83486c20b84bbf5077ddfbbca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f56c3a23baf87fcf8d31003c6777355') in 0.005679 seconds 
+  Import took 0.008369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002571 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/Preferences.cs
+  artifactKey: Guid(24641be1c0410a745b529e61b508679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/Preferences.cs using Guid(24641be1c0410a745b529e61b508679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6bcedc4ca8de7d7a7682e046e6a699') in 0.005716 seconds 
+  Import took 0.008316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002590 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatParameterCode.cs
+  artifactKey: Guid(d7a17b60c85fb30448492e397c58c7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatParameterCode.cs using Guid(d7a17b60c85fb30448492e397c58c7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfdd2b6345a7133ab470a79f679f7f4') in 0.005321 seconds 
+  Import took 0.007839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002961 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/if.txt
+  artifactKey: Guid(61cb5a08618b705499acb0d276340412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/if.txt using Guid(61cb5a08618b705499acb0d276340412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df54994eed894ad92aeac0bf9cceea9c') in 0.006289 seconds 
+  Import took 0.009525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002977 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/FileUtilities.cs
+  artifactKey: Guid(11fdc6f78f8c965499a870ca06dca6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/FileUtilities.cs using Guid(11fdc6f78f8c965499a870ca06dca6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07246fcb97e1a461e2ff598259e02bf') in 0.006308 seconds 
+  Import took 0.009057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007588 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1293dca49ca6c1939850b09f5f69ee37') in 0.005743 seconds 
+  Import took 0.009032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002584 seconds.
+  path: Assets/SuperEditor/Editor/Util.cs
+  artifactKey: Guid(e38dd8baf2bac44d9acd2a8926f17781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/Editor/Util.cs using Guid(e38dd8baf2bac44d9acd2a8926f17781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c85dd292ccf88340614514739905dd8') in 0.005597 seconds 
+  Import took 0.008096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044792 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Extensions.cs
+  artifactKey: Guid(3c0464991e33a70498abdd85c150cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Extensions.cs using Guid(3c0464991e33a70498abdd85c150cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cfe34fceda75def87854bc79d0a936') in 0.005654 seconds 
+  Import took 0.008189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002614 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs
+  artifactKey: Guid(5eb508ffb7b7b0f47882f0087a668283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs using Guid(5eb508ffb7b7b0f47882f0087a668283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7485b163f97c2bded33d27c016c1f39') in 0.006030 seconds 
+  Import took 0.008592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002670 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/MonoBehaviourPunEditor.cs
+  artifactKey: Guid(6da457ee57ad5794782f1f76644536e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/MonoBehaviourPunEditor.cs using Guid(6da457ee57ad5794782f1f76644536e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c15f87a262464e15bb80fae5027338') in 0.005738 seconds 
+  Import took 0.008330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003181 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs
+  artifactKey: Guid(cbf2b3734a024f842bd50f8738feb400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs using Guid(cbf2b3734a024f842bd50f8738feb400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d470ef04aae9ba8a92f4186091aa81') in 0.005439 seconds 
+  Import took 0.008004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002761 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs
+  artifactKey: Guid(99b4daedc5e674a429acdf1e77da6a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs using Guid(99b4daedc5e674a429acdf1e77da6a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba9c0e67907f54a12e91281549cd809') in 0.005882 seconds 
+  Import took 0.008390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003031 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs
+  artifactKey: Guid(f0b3ce6748186d3468e0dbaecb38b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs using Guid(f0b3ce6748186d3468e0dbaecb38b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f46477f41750ab43b042a7a86cd1b4a') in 0.005821 seconds 
+  Import took 0.008479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003368 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PointedAtGameObjectInfo.cs
+  artifactKey: Guid(e6262dd9a9b078c4e8cbd47495aa6d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PointedAtGameObjectInfo.cs using Guid(e6262dd9a9b078c4e8cbd47495aa6d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4708c189a252835a008134508be2d874') in 0.005957 seconds 
+  Import took 0.008838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003359 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/foreach.txt
+  artifactKey: Guid(69e68f7b9e0cbe24a9161a66bbac1352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/foreach.txt using Guid(69e68f7b9e0cbe24a9161a66bbac1352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92075e839086d0134fc4a33f218e3458') in 0.006037 seconds 
+  Import took 0.008608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002925 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs
+  artifactKey: Guid(9dab7328ba500e944a99d62065fba6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs using Guid(9dab7328ba500e944a99d62065fba6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566e4d632faf7faf66305383a2d246b9') in 0.006154 seconds 
+  Import took 0.008700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002904 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs
+  artifactKey: Guid(1a1b3bda60e9e804f87fd1e5d20a885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs using Guid(1a1b3bda60e9e804f87fd1e5d20a885a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6caa39b7157b38f0d5c49c7523c190b') in 0.006147 seconds 
+  Import took 0.008982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003034 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Enums.cs
+  artifactKey: Guid(b7962bbdaba2a4940b1341d755abd40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Enums.cs using Guid(b7962bbdaba2a4940b1341d755abd40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c8c084d8797081d08925d620707ed') in 0.005649 seconds 
+  Import took 0.008448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003645 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs
+  artifactKey: Guid(a8c9ec475ad103b43b901d942ff66e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs using Guid(a8c9ec475ad103b43b901d942ff66e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183bed1fb1b6abc7a0781513ea4526fb') in 0.005254 seconds 
+  Import took 0.007771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002860 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs
+  artifactKey: Guid(ffc398cf76e6d458caf303b5fceea504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs using Guid(ffc398cf76e6d458caf303b5fceea504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847b02781f0c714c8956d9e4127437ce') in 0.006028 seconds 
+  Import took 0.008469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006070 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs
+  artifactKey: Guid(9b79a9b62449de940a073364858c3f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs using Guid(9b79a9b62449de940a073364858c3f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a7fb1d6efe56edc7cb0d4bec9ae9d7') in 0.005935 seconds 
+  Import took 0.008626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006987 seconds.
+  path: Assets/SuperEditor/Editor/SuperEditor.dll
+  artifactKey: Guid(fbce18d39cccb438b9c9b0d0257ddea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/Editor/SuperEditor.dll using Guid(fbce18d39cccb438b9c9b0d0257ddea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303a2e8c4a49f77ce33a77b856a45bba') in 0.001840 seconds 
+  Import took 0.004373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002950 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/CullAreaEditor.cs
+  artifactKey: Guid(abadaa451a7bff0489078ed9eec61133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/CullAreaEditor.cs using Guid(abadaa451a7bff0489078ed9eec61133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ae40c32602a1eada3ce6944b57cc90') in 0.005278 seconds 
+  Import took 0.007810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003001 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Region.cs
+  artifactKey: Guid(bddf4f4bde2f8dd46927411229ce1302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Region.cs using Guid(bddf4f4bde2f8dd46927411229ce1302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6269bdb882c04b4937e49e77ce6d1f6b') in 0.005628 seconds 
+  Import took 0.008301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002670 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5859e27e4f2f2b88c6993ce2032a7a7d') in 0.005671 seconds 
+  Import took 0.008202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002788 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatClient.cs
+  artifactKey: Guid(692e391fa2a297c45b3d530aa85be610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatClient.cs using Guid(692e391fa2a297c45b3d530aa85be610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8dec8f1096c3355c73b594c398a695') in 0.005750 seconds 
+  Import took 0.008310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003475 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/PTMono.ttc
+  artifactKey: Guid(9f0b61d0856424002ab8c53fb445cd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/PTMono.ttc using Guid(9f0b61d0856424002ab8c53fb445cd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d27dc82a4598b7c0210db776b6700a9') in 0.014803 seconds 
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002947 seconds.
+  path: Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs
+  artifactKey: Guid(b1bad04f7805f764dba77f0d4518e0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs using Guid(b1bad04f7805f764dba77f0d4518e0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1365116100ba3cdf0ec32dbc952324d') in 0.005580 seconds 
+  Import took 0.008195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003181 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0096beb2802859207d1d4c1db05483d') in 0.005711 seconds 
+  Import took 0.008588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003030 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonAnimatorViewEditor.cs
+  artifactKey: Guid(a3f61bade114730459f7ad45f5f292c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonAnimatorViewEditor.cs using Guid(a3f61bade114730459f7ad45f5f292c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace9ce9b8c8b7d18d87462f2bd6ef7e') in 0.006358 seconds 
+  Import took 0.008935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003029 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs
+  artifactKey: Guid(195602a009c4b42b6a62e0bdf601b70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs using Guid(195602a009c4b42b6a62e0bdf601b70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d8149e6228f67480cde52a7470d9b9') in 0.005494 seconds 
+  Import took 0.008156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003334 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/set.txt
+  artifactKey: Guid(53824c9f2c19d444b88f321ca20f5eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/set.txt using Guid(53824c9f2c19d444b88f321ca20f5eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faf8708ed3e7a9496d547b152801545') in 0.007591 seconds 
+  Import took 0.010309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003258 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs
+  artifactKey: Guid(d06466c03d263624786afa88b52928b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs using Guid(d06466c03d263624786afa88b52928b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c698145c66492524f3bc4545f04d9b') in 0.005817 seconds 
+  Import took 0.008462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003235 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs
+  artifactKey: Guid(88e11b3353de7e94d84b1ec5adbdd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs using Guid(88e11b3353de7e94d84b1ec5adbdd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34f1658ab9a1df153134e79ad007fbb') in 0.005500 seconds 
+  Import took 0.008284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003778 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/WebRpc.cs
+  artifactKey: Guid(294b0a24f6c841f48acf4bf696a4d764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/WebRpc.cs using Guid(294b0a24f6c841f48acf4bf696a4d764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71c0e859700f2a09597bbec87ff998f') in 0.007751 seconds 
+  Import took 0.010903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002931 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs
+  artifactKey: Guid(aa584fbee541324448dd18d8409c7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs using Guid(aa584fbee541324448dd18d8409c7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f156ee5e91baca12e001219ce43078e') in 0.005524 seconds 
+  Import took 0.008246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002828 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Utilities/NestedComponentUtilities.cs
+  artifactKey: Guid(40bca7ec270007b40a4de315c071f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Utilities/NestedComponentUtilities.cs using Guid(40bca7ec270007b40a4de315c071f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfb1108b278804a3c4bbecdde1ac9be') in 0.006027 seconds 
+  Import took 0.008915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003042 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs
+  artifactKey: Guid(9b8c4a61274f60b4ea5fb4299cfdbf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs using Guid(9b8c4a61274f60b4ea5fb4299cfdbf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847298d4992298b8733bf24d2eb88345') in 0.005372 seconds 
+  Import took 0.007923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003026 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/ienumerator.txt
+  artifactKey: Guid(b957a62c730224856af1b0fd0b70f35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/ienumerator.txt using Guid(b957a62c730224856af1b0fd0b70f35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd96e29b0b66ac1ad0a4fd2c44a8e76c') in 0.006507 seconds 
+  Import took 0.009503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002874 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/hello.txt
+  artifactKey: Guid(fb2aac5f859444109beafe947f322c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/hello.txt using Guid(fb2aac5f859444109beafe947f322c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1fa0998edc7872d93589d50bcafe59') in 0.006069 seconds 
+  Import took 0.008720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002309 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPunCallbacks.cs
+  artifactKey: Guid(421c323e36c065045b2c44e16a184a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPunCallbacks.cs using Guid(421c323e36c065045b2c44e16a184a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baba128fcf163a3b97be7ad6fbd6f869') in 0.005728 seconds 
+  Import took 0.008202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002533 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/for.txt
+  artifactKey: Guid(0901c05981b598d4d9b4236b13cc2c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/for.txt using Guid(0901c05981b598d4d9b4236b13cc2c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f0f0b8f1fd2be9db8302431e519c6f') in 0.006241 seconds 
+  Import took 0.009189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002611 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/ParrelSyncAssetModificationProcessor.cs
+  artifactKey: Guid(755e570bd21b39440a923056e60f1450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/ParrelSyncAssetModificationProcessor.cs using Guid(755e570bd21b39440a923056e60f1450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7409cae6e29cf10a82bb2ad1516e1951') in 0.005702 seconds 
+  Import took 0.008434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002518 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/try.txt
+  artifactKey: Guid(30fbb82f3a4abde4f95cae4eba302f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/try.txt using Guid(30fbb82f3a4abde4f95cae4eba302f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb19710605039a9dc5242052270619f') in 0.005753 seconds 
+  Import took 0.008739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002844 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/ConnectAndJoinRandom.cs
+  artifactKey: Guid(5c1b84a427010e0469ce0df07ab64dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/ConnectAndJoinRandom.cs using Guid(5c1b84a427010e0469ce0df07ab64dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbde9d0ded0c6522a07bbc97057db930') in 0.005906 seconds 
+  Import took 0.008648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003379 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/Mono Bold.ttf
+  artifactKey: Guid(c2bd47fa93fb94740b403fcb08f2b086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/Mono Bold.ttf using Guid(c2bd47fa93fb94740b403fcb08f2b086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf66f65ee53284c050207df906846e0') in 0.013376 seconds 
+  Import took 0.016452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002762 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/CustomTypesUnity.cs
+  artifactKey: Guid(c41ee868d8540674982e160cf16e0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/CustomTypesUnity.cs using Guid(c41ee868d8540674982e160cf16e0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a4f0f9be141e7885f0327a874a683e') in 0.005258 seconds 
+  Import took 0.007816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002555 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/RegionHandler.cs
+  artifactKey: Guid(207807222df026f40ac3688a3a051e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/RegionHandler.cs using Guid(207807222df026f40ac3688a3a051e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784475eddb9fdbc8a4c047757915be8') in 0.005685 seconds 
+  Import took 0.008349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002820 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/ClonesManager.cs
+  artifactKey: Guid(6148e48ed6b61d748b187d06d3687b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/ClonesManager.cs using Guid(6148e48ed6b61d748b187d06d3687b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92c0a62aae0e7dfe6297454492ed87c') in 0.005448 seconds 
+  Import took 0.007990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002873 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/PhotonPing.cs
+  artifactKey: Guid(5a2f6055139b44142954461627d344bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/PhotonPing.cs using Guid(5a2f6055139b44142954461627d344bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a563d61ffbdf40ed27afb2502ebcc2e1') in 0.006213 seconds 
+  Import took 0.008759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003140 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/get project window.txt
+  artifactKey: Guid(d7c4aea1c4d384ee3a040f9fd2413a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/get project window.txt using Guid(d7c4aea1c4d384ee3a040f9fd2413a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8379c2ded89daff6dad84bf67e71230c') in 0.006345 seconds 
+  Import took 0.009011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002684 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd1f1dbd6e0f76e09e1c1879996ff73') in 0.007166 seconds 
+  Import took 0.009897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002924 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90258149dcabea27eb86150e58270952') in 0.005694 seconds 
+  Import took 0.008220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002874 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs
+  artifactKey: Guid(6b4df3943860f1d45bfe232053a58d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs using Guid(6b4df3943860f1d45bfe232053a58d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4341409b938d99ada6161b689dda5dc') in 0.005375 seconds 
+  Import took 0.007891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003223 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  artifactKey: Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs using Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3320e7929150ba681b60750367999f1') in 0.005278 seconds 
+  Import took 0.007850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002849 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b782acdcc5740cb22f2fd5f3d829734b') in 0.005790 seconds 
+  Import took 0.008649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003093 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04303d3624a4f64be73729bf6882491') in 0.007744 seconds 
+  Import took 0.010771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002850 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatUserStatus.cs
+  artifactKey: Guid(7db67e7f5face2e42b6daafcaf4e6c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatUserStatus.cs using Guid(7db67e7f5face2e42b6daafcaf4e6c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345e233551b6e49efc35dbb817613ea4') in 0.005645 seconds 
+  Import took 0.008392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002673 seconds.
+  path: Assets/SuperEditor/EditorResources/Internal
+  artifactKey: Guid(c6bc0ed837bcb4183b92f200ead711f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Internal using Guid(c6bc0ed837bcb4183b92f200ead711f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a863208d0718021636b0d54933cd47e8') in 0.005248 seconds 
+  Import took 0.007674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003010 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs
+  artifactKey: Guid(dfb1c264fdc576442b2f42c998bed4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs using Guid(dfb1c264fdc576442b2f42c998bed4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c208c3bdbf78d66af12323914c22aed7') in 0.005711 seconds 
+  Import took 0.008182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002991 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80831a1bed743021dc36ac88da5e52dd') in 0.005265 seconds 
+  Import took 0.007817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003000 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/RoomInfo.cs
+  artifactKey: Guid(71760b65ad7d5b842942c797a0366fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/RoomInfo.cs using Guid(71760b65ad7d5b842942c797a0366fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72baae92a64f28094654b8c73b2a0d5c') in 0.005463 seconds 
+  Import took 0.007950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005559 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/ServerSettingsInspector.cs
+  artifactKey: Guid(21239ba77ac4b534f958e8617ef13ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/ServerSettingsInspector.cs using Guid(21239ba77ac4b534f958e8617ef13ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d84a9057a92c4f96d7a173a04de0576') in 0.005583 seconds 
+  Import took 0.008149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003096 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/catch.txt
+  artifactKey: Guid(c6f8de59a215ab849add7b2db7ec2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/catch.txt using Guid(c6f8de59a215ab849add7b2db7ec2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdefa6fb80d98b8e74310df223a18980') in 0.005620 seconds 
+  Import took 0.008095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002524 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/finally.txt
+  artifactKey: Guid(3358846ebd4367c4c8760a7ab5e57222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/finally.txt using Guid(3358846ebd4367c4c8760a7ab5e57222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f960c2f0914e29f1526289502ad8e1d') in 0.005223 seconds 
+  Import took 0.007590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002668 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10bdd1166d0bb2cf53109a69ac8b7a6') in 0.005016 seconds 
+  Import took 0.007380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002542 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/base.txt
+  artifactKey: Guid(9f0f5b269d61db6429bfd6f3dd0c2b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/base.txt using Guid(9f0f5b269d61db6429bfd6f3dd0c2b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda93e40f79b78db1b7f88d868e0ef40') in 0.005380 seconds 
+  Import took 0.007781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002533 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315c9feb8d628630e75512b3e98f23b7') in 0.004874 seconds 
+  Import took 0.007234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002576 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewInspector.cs
+  artifactKey: Guid(e73a30c46df19194f873ea7a9ce12753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewInspector.cs using Guid(e73a30c46df19194f873ea7a9ce12753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbad2781c70cb46b9bb1b1194c27b92') in 0.004903 seconds 
+  Import took 0.007432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002906 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/CourierN Bold Italic.ttf
+  artifactKey: Guid(bd7728a8f47254ee6a3924ff2aeabf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/CourierN Bold Italic.ttf using Guid(bd7728a8f47254ee6a3924ff2aeabf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9687b1728e3c81b34022043f648ca065') in 0.014674 seconds 
+  Import took 0.017154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003025 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/EventSystemSpawner.cs
+  artifactKey: Guid(68187d3cf4c8746aaa64930f1a766a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/EventSystemSpawner.cs using Guid(68187d3cf4c8746aaa64930f1a766a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f5b4e590cfa3bd1195c7b6b4ba10bf') in 0.005279 seconds 
+  Import took 0.007703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002848 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+  artifactKey: Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs using Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45de8ae61c22d0b24005c6d934555dde') in 0.005123 seconds 
+  Import took 0.007616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002923 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/do.txt
+  artifactKey: Guid(43ef0984ec0284f4ab3b20551d8c27a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/do.txt using Guid(43ef0984ec0284f4ab3b20551d8c27a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ca4920035c428873ad1f363d96588d') in 0.005722 seconds 
+  Import took 0.008097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002746 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Room.cs
+  artifactKey: Guid(17568a7a5552c09428dd48e73548b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Room.cs using Guid(17568a7a5552c09428dd48e73548b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd80795b07152956f89bc82a2bda60cc') in 0.005150 seconds 
+  Import took 0.007474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002730 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs
+  artifactKey: Guid(0e7cb724808c322458aa4d15f5035fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs using Guid(0e7cb724808c322458aa4d15f5035fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d25d14260b0bf59d372aa7aad2dd3b') in 0.004934 seconds 
+  Import took 0.007342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002584 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/ValidateCopiedFoldersIntegrity.cs
+  artifactKey: Guid(d8fb344b9abf5274abd744833474b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/ValidateCopiedFoldersIntegrity.cs using Guid(d8fb344b9abf5274abd744833474b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477f330830e84367d8adeebad29a3fc1') in 0.004989 seconds 
+  Import took 0.007312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002565 seconds.
+  path: Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.dll
+  artifactKey: Guid(3b5a0a7dce46a13459199d174ad3db3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.dll using Guid(3b5a0a7dce46a13459199d174ad3db3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdaf0d4e64f617fb842a7146f462fa7') in 0.002053 seconds 
+  Import took 0.004397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002259 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs
+  artifactKey: Guid(f8d56a54ae062da4a87516fb994f4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs using Guid(f8d56a54ae062da4a87516fb994f4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e289a8173c5f18f2837e13a743784123') in 0.004870 seconds 
+  Import took 0.007239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002665 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/Monaco.ttf
+  artifactKey: Guid(974b85e285f47a94aa988645647ff9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/Monaco.ttf using Guid(974b85e285f47a94aa988645647ff9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903ddadd4dee0313c2b590723dbc156b') in 0.015329 seconds 
+  Import took 0.018313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003774 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatPeer.cs
+  artifactKey: Guid(3f712805dec728943a668b3bf19dc422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatPeer.cs using Guid(3f712805dec728943a668b3bf19dc422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aea7419a56d144f4bfb2e04dae1dbb') in 0.005256 seconds 
+  Import took 0.007739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002295 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Unity/Editor/AccountService.cs
+  artifactKey: Guid(166dfe22956ef0341b28e18d0499e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Unity/Editor/AccountService.cs using Guid(166dfe22956ef0341b28e18d0499e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75405653d7a1f3c86157dd4721e5af86') in 0.005491 seconds 
+  Import took 0.008055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002444 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatEventCode.cs
+  artifactKey: Guid(188e4a680bce12d4cbad8d57a24f7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatEventCode.cs using Guid(188e4a680bce12d4cbad8d57a24f7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c336f2e0cd3482cf7f2f2237daed96') in 0.004880 seconds 
+  Import took 0.007390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002328 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cec5f6d831c40ccd63d1c2c0155f78b') in 0.005171 seconds 
+  Import took 0.007557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002506 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c97b3fcd929d5e8d321650e65f67426') in 0.005364 seconds 
+  Import took 0.007666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002518 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Player.cs
+  artifactKey: Guid(e3e4b5bebc687044b9c6c2803c36be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Player.cs using Guid(e3e4b5bebc687044b9c6c2803c36be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2254cc4e018d7051c08fba2a0c0ad7a') in 0.004903 seconds 
+  Import took 0.007193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002725 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/NonCore/OtherMenuItem.cs
+  artifactKey: Guid(7191fa4bfa12ae749b27f73ed292eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/NonCore/OtherMenuItem.cs using Guid(7191fa4bfa12ae749b27f73ed292eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90b9de167b643b3e05a58e5d9e20a15') in 0.004982 seconds 
+  Import took 0.007276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002692 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs
+  artifactKey: Guid(3a82e8e86b9eecb40ac3f6ebc949f6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs using Guid(3a82e8e86b9eecb40ac3f6ebc949f6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59fbc96a7ec94e45fd99b9ed782fae5') in 0.005393 seconds 
+  Import took 0.007795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002509 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783dbe47c12da584f7a9865e461d22b5') in 0.005045 seconds 
+  Import took 0.007415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002982 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c391a3ef22de5419002cb66338ab7da8') in 0.006774 seconds 
+  Import took 0.009318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002010 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts
+  artifactKey: Guid(f4e842eebb7114ac981dd4710de67dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts using Guid(f4e842eebb7114ac981dd4710de67dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9874cc57e92e5bb460c4b805dc3c09b3') in 0.005226 seconds 
+  Import took 0.007473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002679 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/class.txt
+  artifactKey: Guid(f5881a3a18e960e49a4b7f178e3179c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/class.txt using Guid(f5881a3a18e960e49a4b7f178e3179c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6998952ca4e305985d157d87c4fce10') in 0.005355 seconds 
+  Import took 0.007771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066afd32fc97a71863255e94b961c6c9') in 0.004941 seconds 
+  Import took 0.007319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002664 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPhotonViewCallbacks.cs
+  artifactKey: Guid(d67b3e094fcbf004da7f8771c17126f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPhotonViewCallbacks.cs using Guid(d67b3e094fcbf004da7f8771c17126f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b712ae63a78c854db5fd84c45961f22f') in 0.005223 seconds 
+  Import took 0.007591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002385 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/log.txt
+  artifactKey: Guid(b80ccdc0a1a3f448284591e034fe83ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/log.txt using Guid(b80ccdc0a1a3f448284591e034fe83ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41908aaf7580e1e601203b5bab6b3efc') in 0.005333 seconds 
+  Import took 0.007685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002638 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e699ea36bae1db8e234bcfc5dec795e8') in 0.005517 seconds 
+  Import took 0.007962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002582 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed85738fdbabb7c1d530c54ea4a7ec6') in 0.005664 seconds 
+  Import took 0.008043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002459 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs
+  artifactKey: Guid(8efc6b1d64977384eb3405357896c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs using Guid(8efc6b1d64977384eb3405357896c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ad9fc3ef8368c03fe80467d368ce33') in 0.004928 seconds 
+  Import took 0.007252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002786 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/#region.txt
+  artifactKey: Guid(b5a99d5f1bccc4d79b14a5fb2fdabe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/#region.txt using Guid(b5a99d5f1bccc4d79b14a5fb2fdabe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7701353ef56ed877a4c1c2b4865732') in 0.005274 seconds 
+  Import took 0.007605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002516 seconds.
+  path: Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs
+  artifactKey: Guid(ac953d6a57a9ea94e96ec689598995d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs using Guid(ac953d6a57a9ea94e96ec689598995d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ee806e3bc182a109d83530297409ff') in 0.005126 seconds 
+  Import took 0.007397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002560 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs
+  artifactKey: Guid(9d234639538a34b8d9e3cc6362a7afd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs using Guid(9d234639538a34b8d9e3cc6362a7afd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74efaa4487a4ddc321a40b84d4f2a3e7') in 0.004865 seconds 
+  Import took 0.007119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003049 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/OnPointerOverTooltip.cs
+  artifactKey: Guid(ff93154db96e843fbbc5e816ec0d2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/OnPointerOverTooltip.cs using Guid(ff93154db96e843fbbc5e816ec0d2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c365ef2ad29b0159f3000f762cbb3f0') in 0.005632 seconds 
+  Import took 0.008491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003290 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/CourierN Bold.ttf
+  artifactKey: Guid(efe527ea17d5c40e0b68f5a2e77a412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/CourierN Bold.ttf using Guid(efe527ea17d5c40e0b68f5a2e77a412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849414104936a5c21af486e5faa136fb') in 0.013849 seconds 
+  Import took 0.016489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002900 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/interface.txt
+  artifactKey: Guid(0e4abe3c73a0e7149818ebbae1494d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/interface.txt using Guid(0e4abe3c73a0e7149818ebbae1494d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf502ed0af3643e9609b125a2ef17b98') in 0.006079 seconds 
+  Import took 0.008732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003057 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs
+  artifactKey: Guid(1fbabafd914a48f4eb6108d8d8f43d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs using Guid(1fbabafd914a48f4eb6108d8d8f43d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2e9f98a090aae153cc915d65ae1d3b') in 0.005688 seconds 
+  Import took 0.008188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002607 seconds.
+  path: Assets/ParrelSync/Examples/CustomArgumentExample.cs
+  artifactKey: Guid(346d302ecc25a9a41b48b857ce51d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/Examples/CustomArgumentExample.cs using Guid(346d302ecc25a9a41b48b857ce51d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ed3f5e0b0be55a76cc1c6b1dab8c26') in 0.005328 seconds 
+  Import took 0.007806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002969 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.016910 seconds 
+  Import took 0.019881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003084 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Unity/Editor/PhotonEditorUtils.cs
+  artifactKey: Guid(607340ca505d53d4f8e785423fac7964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/Unity/Editor/PhotonEditorUtils.cs using Guid(607340ca505d53d4f8e785423fac7964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3059622df5e39cc19564b06f6e1db') in 0.005629 seconds 
+  Import took 0.008232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002988 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce085e0f0485ba1c93e8b01e769fdb0') in 0.005848 seconds 
+  Import took 0.008361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003684 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d4d1426c60de403d30579ad715a398') in 0.009243 seconds 
+  Import took 0.012581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004361 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(523118b7a0c95514ab41b1fcbb0e218f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(523118b7a0c95514ab41b1fcbb0e218f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64f8bfe13fa765300faf4fe3605adb6') in 0.011789 seconds 
+  Import took 0.014952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003868 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs
+  artifactKey: Guid(6587c8104d7524f4280d0a68dd779f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs using Guid(6587c8104d7524f4280d0a68dd779f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56908cd0f4bbee35ebfb4d9cfe76e2ce') in 0.006854 seconds 
+  Import took 0.013364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004155 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/CustomTypes.cs
+  artifactKey: Guid(ab517bd36a2b2504b83979fcad45d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/CustomTypes.cs using Guid(ab517bd36a2b2504b83979fcad45d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c03d04fe098f0431ad1d4eea4b0deff') in 0.009370 seconds 
+  Import took 0.014304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006561 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/get.txt
+  artifactKey: Guid(1232ecf649b4f49449d892e74dc3ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/get.txt using Guid(1232ecf649b4f49449d892e74dc3ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7348076fa22da200f170c040fc596d0a') in 0.014367 seconds 
+  Import took 0.018043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004444 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/UpdateChecker.cs
+  artifactKey: Guid(d3453b3f1a20ea148b5028f8556a7be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/UpdateChecker.cs using Guid(d3453b3f1a20ea148b5028f8556a7be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6550ecc2b8a9c411c3bcfdfb5e144fdf') in 0.010628 seconds 
+  Import took 0.014690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007316 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PhotonTeamsManager.cs
+  artifactKey: Guid(8701526de72d8774fa165e66daf050ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PhotonTeamsManager.cs using Guid(8701526de72d8774fa165e66daf050ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34490e3006331c041cfedb0a5088dec') in 0.006858 seconds 
+  Import took 0.010439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003141 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs
+  artifactKey: Guid(627855c7f81362d41938ffe0b1475957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs using Guid(627855c7f81362d41938ffe0b1475957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbd0214ada8e511e7e787fd5260799f') in 0.010719 seconds 
+  Import took 0.014024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007463 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs
+  artifactKey: Guid(ed3b5dcba7bf9114cb13fc59e0a71f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs using Guid(ed3b5dcba7bf9114cb13fc59e0a71f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693c913e48dd8cd4af759212ced7a87c') in 0.008071 seconds 
+  Import took 0.013238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003419 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatState.cs
+  artifactKey: Guid(8f482d8c4fe7ade4cbb08eb4a2d83b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatState.cs using Guid(8f482d8c4fe7ade4cbb08eb4a2d83b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca36f6f54a7fd16d99fb0dab18d8b6b0') in 0.014182 seconds 
+  Import took 0.017993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003362 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates/logerror.txt
+  artifactKey: Guid(ff8a77cbe115e4e528f7879977be3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates/logerror.txt using Guid(ff8a77cbe115e4e528f7879977be3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd148193f85c5d64629d41878011f65b') in 0.012860 seconds 
+  Import took 0.016204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003600 seconds.
+  path: Assets/ParrelSync/ParrelSync/Editor/ExternalLinks.cs
+  artifactKey: Guid(65daf17fbe5101b41977305639f30c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParrelSync/ParrelSync/Editor/ExternalLinks.cs using Guid(65daf17fbe5101b41977305639f30c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a707fa642ba958919e65eb0514ae1413') in 0.011594 seconds 
+  Import took 0.016192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004043 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChannelCreationOptions.cs
+  artifactKey: Guid(6c1aa0fceaa2bc14eabdf85976f4e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChannelCreationOptions.cs using Guid(6c1aa0fceaa2bc14eabdf85976f4e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a900129978e90ddf9d6340e99f92808f') in 0.007575 seconds 
+  Import took 0.014007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005756 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/ButtonInsideScrollList.cs
+  artifactKey: Guid(e0e8b381f2c05442ca5c01638958156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/ButtonInsideScrollList.cs using Guid(e0e8b381f2c05442ca5c01638958156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37db563986b72891a637e0617c4a808c') in 0.007629 seconds 
+  Import took 0.011703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003634 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb7ef90dd07ec08a574654e2e57a2d4') in 0.009686 seconds 
+  Import took 0.013261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004105 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs
+  artifactKey: Guid(4bcfebc9a2f1074488adedd1fe84e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs using Guid(4bcfebc9a2f1074488adedd1fe84e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a079f9cc48f0f79c03463b6dbb0428e2') in 0.008042 seconds 
+  Import took 0.013085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003336 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs
+  artifactKey: Guid(f4e65968c7102bf42a77b6a5cade8743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs using Guid(f4e65968c7102bf42a77b6a5cade8743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33054436e7bca2ae9f65af845ddc004') in 0.012732 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002690 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde44301e137c989292cc4d8c0d4dd17') in 0.005702 seconds 
+  Import took 0.008326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002543 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs
+  artifactKey: Guid(b28dd60f6abf16d4094cf0f642a043e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs using Guid(b28dd60f6abf16d4094cf0f642a043e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4cd9dbe67844214ff0a296d5d0874d') in 0.005579 seconds 
+  Import took 0.008320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002590 seconds.
+  path: Assets/Scripts/RoomListItem.cs
+  artifactKey: Guid(b0e06bf92c9bc1044b305872bb60a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomListItem.cs using Guid(b0e06bf92c9bc1044b305872bb60a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b9f38248e09755fab6c151aed51df5') in 0.005227 seconds 
+  Import took 0.008133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002624 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs
+  artifactKey: Guid(177bddf229f8d8445a70c0652f03b7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs using Guid(177bddf229f8d8445a70c0652f03b7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60a0f029909fb6cb5c75c955a4e9670') in 0.005749 seconds 
+  Import took 0.008690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003218 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/Courier.ttf
+  artifactKey: Guid(ea0712cd113f0489b8bbc2828607a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/Courier.ttf using Guid(ea0712cd113f0489b8bbc2828607a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76571682064dbca97a67427d6d52eca3') in 0.014565 seconds 
+  Import took 0.017279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002552 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs
+  artifactKey: Guid(3d2cadb1ccf05074e8ce96b1393846cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs using Guid(3d2cadb1ccf05074e8ce96b1393846cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de48805ff5ed031d15dc7feac81ec5a') in 0.005893 seconds 
+  Import took 0.008497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002745 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs
+  artifactKey: Guid(c94485733838d40fda441b2c0fbbec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs using Guid(c94485733838d40fda441b2c0fbbec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62961f6cc721d79c09b8f72f09f6ac4b') in 0.005265 seconds 
+  Import took 0.007774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002237 seconds.
+  path: Assets/SuperEditor/EditorResources/CodeTemplates
+  artifactKey: Guid(dd3b0214d69ee450989a62e2b6f9fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/CodeTemplates using Guid(dd3b0214d69ee450989a62e2b6f9fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1649c31ff4d73342eb049f092b66381f') in 0.005135 seconds 
+  Import took 0.007588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002825 seconds.
+  path: Assets/Photon/PhotonChat/Code/IChatClientListener.cs
+  artifactKey: Guid(bab7c8053b486e34aa0d4ca99dcbec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/IChatClientListener.cs using Guid(bab7c8053b486e34aa0d4ca99dcbec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fc64a724a0a4e03202802bf187deef') in 0.006057 seconds 
+  Import took 0.008607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002961 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs
+  artifactKey: Guid(62880f27e95abf2418fd79e9d9d568b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs using Guid(62880f27e95abf2418fd79e9d9d568b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35207bcb030a810100fff17013e8fdad') in 0.005417 seconds 
+  Import took 0.008039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004930 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PlayerNumberingInspector.cs
+  artifactKey: Guid(d6590f39353bf4efdb3b14691166135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PlayerNumberingInspector.cs using Guid(d6590f39353bf4efdb3b14691166135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f2659f1cd7b6351f1f8c6cc4e6fc34') in 0.009355 seconds 
+  Import took 0.012455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005333 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs
+  artifactKey: Guid(7dcadaf22424c4f5d82f4d48c3b8097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs using Guid(7dcadaf22424c4f5d82f4d48c3b8097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c99d7e42adb3e4f598f474128256caf') in 0.005989 seconds 
+  Import took 0.009436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002942 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fc334ee6739fbc43c0395da69767e4') in 0.004870 seconds 
+  Import took 0.007180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003024 seconds.
+  path: Assets/SuperEditor/EditorResources/Fonts/CourierN Italic.ttf
+  artifactKey: Guid(25cd8ec4c62da4562b63d25c36d0e5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperEditor/EditorResources/Fonts/CourierN Italic.ttf using Guid(25cd8ec4c62da4562b63d25c36d0e5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06937fe148ba4790ee1d4f3e397913f6') in 0.014087 seconds 
+  Import took 0.016767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003330 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+  artifactKey: Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs using Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044596276e64027adc1f872b4c79e294') in 0.005579 seconds 
+  Import took 0.008100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003246 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.013394 seconds 
+  Import took 0.015854 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2818ms)
+		BeginReloadAssembly (291ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (2395ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (600ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (1042ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 2.453200 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.111400 ms  DeleteObjects: 0.078700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
